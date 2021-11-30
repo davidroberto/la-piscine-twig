@@ -16,6 +16,7 @@
                 <h2>{{ article.title }}</h2>
                 <p>{{ article.content }}</p>
                 <img src="{{ article.image }}" alt="{{ article.title }}">
+                <a href="{{ path('article_show', {'id': article.id}) }}">Voir l'article</a>
             </article>
         {% endif %}
     {% endfor %}
