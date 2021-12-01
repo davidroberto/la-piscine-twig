@@ -22,6 +22,7 @@ class ArticleController extends AbstractController
                 "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et, facilis laboriosam tenetur unde vero! Ad consequatur, debitis dolorum eos error explicabo id, iusto magni nam odio quas reprehenderit ut.",
                 "image" => "https://static1.purepeople.com/articles/7/26/58/37/@/3758746-exclusif-christian-clavier-enregistr-624x600-2.jpg",
                 "isPublished" => false,
+                "publishedAt" => new \DateTime('NOW'),
                 "id" => 1
             ],
             2 => [
@@ -29,6 +30,7 @@ class ArticleController extends AbstractController
                 "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et, facilis laboriosam tenetur unde vero! Ad consequatur, debitis dolorum eos error explicabo id, iusto magni nam odio quas reprehenderit ut.",
                 "image" => "https://static1.purepeople.com/articles/7/26/58/37/@/3758746-exclusif-christian-clavier-enregistr-624x600-2.jpg",
                 "isPublished" => true,
+                "publishedAt" => new \DateTime('NOW'),
                 "id" => 2
             ],
             3 => [
@@ -36,6 +38,7 @@ class ArticleController extends AbstractController
                 "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et, facilis laboriosam tenetur unde vero! Ad consequatur, debitis dolorum eos error explicabo id, iusto magni nam odio quas reprehenderit ut.",
                 "image" => "https://static1.purepeople.com/articles/7/26/58/37/@/3758746-exclusif-christian-clavier-enregistr-624x600-2.jpg",
                 "isPublished" => true,
+                "publishedAt" => new \DateTime('NOW'),
                 "id" => 3
             ],
             4 => [
@@ -43,6 +46,7 @@ class ArticleController extends AbstractController
                 "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et, facilis laboriosam tenetur unde vero! Ad consequatur, debitis dolorum eos error explicabo id, iusto magni nam odio quas reprehenderit ut.",
                 "image" => "https://static1.purepeople.com/articles/7/26/58/37/@/3758746-exclusif-christian-clavier-enregistr-624x600-2.jpg",
                 "isPublished" => false,
+                "publishedAt" => new \DateTime('NOW'),
                 "id" => 4
             ],
             5 => [
@@ -50,6 +54,7 @@ class ArticleController extends AbstractController
                 "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et, facilis laboriosam tenetur unde vero! Ad consequatur, debitis dolorum eos error explicabo id, iusto magni nam odio quas reprehenderit ut.",
                 "image" => "https://static1.purepeople.com/articles/7/26/58/37/@/3758746-exclusif-christian-clavier-enregistr-624x600-2.jpg",
                 "isPublished" => true,
+                "publishedAt" => new \DateTime('NOW'),
                 "id" => 5
             ]
         ];
